@@ -14,7 +14,8 @@ export default function Header({ data }: { data?: any }) {
   const handleSave = async () => {
     setIsSaving(true);
     try {
-      const res = await fetch("http://localhost:5000/api/content/header", {
+      const url = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+      const res = await fetch(`${url}/api/content/header`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ title }),

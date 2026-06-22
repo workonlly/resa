@@ -13,7 +13,8 @@ export default function Footer({ data }: { data?: any }) {
   const handleSave = async () => {
     setIsSaving(true);
     try {
-      const res = await fetch("http://localhost:5000/api/content/footer", {
+      const url = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+      const res = await fetch(`${url}/api/content/footer`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ description, address, phone, hours }),

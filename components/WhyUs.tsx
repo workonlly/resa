@@ -12,7 +12,7 @@ export default function WhyUs() {
               We believe in providing more than just food. At Gupta Bhojnalaya, we offer a complete dining experience built on trust, taste, and tradition.
             </p>
             <div className="hidden lg:block w-full h-64 bg-gray-200 rounded-sm overflow-hidden">
-               <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop" alt="Restaurant Ambiance" className="w-full h-full object-cover" />
+               <img src="ee.jpeg" alt="Restaurant Ambiance" className="w-full h-full object-cover" />
             </div>
           </div>
           

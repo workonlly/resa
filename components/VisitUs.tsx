@@ -38,8 +38,8 @@ export default function VisitUs() {
                 <div>
                   <h4 className="font-bold text-lg mb-1">Contact</h4>
                   <p className="text-gray-300 text-sm">Call us for orders & reservations</p>
-                  <a href="tel:+910000000000" className="text-white font-medium hover:text-[#ea580c] transition-colors inline-block mt-1">
-                    +91 00000 00000
+                  <a href="tel:+919837091490" className="text-white font-medium hover:text-[#ea580c] transition-colors inline-block mt-1">
+                    +91 9837091490
                   </a>
                 </div>
               </div>

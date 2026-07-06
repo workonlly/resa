@@ -41,7 +41,7 @@ export default function About({ data }: { data?: any }) {
           <div className="relative">
             <div className="aspect-[4/5] rounded-t-full overflow-hidden shadow-2xl relative z-10 border-8 border-white">
               <img 
-                src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=1000&auto=format&fit=crop" 
+                src="dfd.png" 
                 alt="Authentic Indian Thali" 
                 className="w-full h-full object-cover"
               />

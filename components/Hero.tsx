@@ -39,7 +39,7 @@ export default function Hero({ data }: { data?: any }) {
   };
 
   return (
-    <section id="home" className="relative h-screen min-h-[600px] flex items-center justify-center">
+    <section id="home" className="relative min-h-screen flex items-center justify-center py-20">
       {/* Background */}
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-r from-[#2E1B15]/90 via-[#2E1B15]/70 to-transparent" />

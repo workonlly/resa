@@ -54,7 +54,7 @@ export default function MenuHighlights({ data }: { data?: any }) {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Menu Cards */}
           {[
-            { name: "Special Deluxe Thali", desc: "A complete meal with Dal Makhani, Shahi Paneer, Mix Veg, Rice, Roti, Raita, and sweet.", img: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=600&auto=format&fit=crop" },
+            { name: "Special Deluxe Thali", desc: "A complete meal with Dal Makhani, Shahi Paneer, Mix Veg, Rice, Roti, Raita, and sweet.", img: "/dfd.png" },
             { name: "Kadai Paneer", desc: "Fresh paneer tossed with bell peppers and tomatoes in a rich, aromatic spiced gravy.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeuzQ4eHwBdwPwmNujZfEiHU0M9HW7ISBlNjf2BS0Fu94L6JqqawpXF-o&s=10" },
             { name: "Dal Tadka", desc: "Comforting yellow lentils tempered with ghee, cumin, garlic, and dry red chilies.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8eujOiLquVSATMMpKp6aH_YZeTyS_vvvlPdH8gXGn8rlLYibJvHB0i28&s=10" },
           ].map((dish, idx) => (

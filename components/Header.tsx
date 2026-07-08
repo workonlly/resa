@@ -118,7 +118,7 @@ export default function Header({ data }: { data?: any }) {
             </button>
           ))}
           <a 
-            href="tel:+910000000000" 
+            href="tel:+919837091490" 
             className="bg-[#ea580c] text-white px-8 py-3 rounded-sm font-medium text-lg flex items-center gap-2 w-[80%] justify-center mt-2"
           >
             <Phone size={20} /> Call Now
